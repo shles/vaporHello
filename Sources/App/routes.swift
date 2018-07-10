@@ -6,6 +6,10 @@ public func routes(_ router: Router) throws {
     router.get("hello") { req in
         return "Hello, Shles!"
     }
+    
+    router.get("anton", "pidor") { _ in
+        return "Zdarov, kak sam?"
+    }
 
     // Example of configuring a controller
     let todoController = TodoController()
