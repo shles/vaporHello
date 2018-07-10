@@ -7,7 +7,7 @@ public func routes(_ router: Router) throws {
         return "Hello, Shles!"
     }
     
-    router.get("anton", "pidor") { _ in
+    router.get("anton/pidor") { req in
         return "Zdarov, kak sam?"
     }
 
