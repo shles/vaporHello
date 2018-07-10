@@ -7,8 +7,8 @@ public func routes(_ router: Router) throws {
         return "Hello, Shles!"
     }
     
-    router.get("anton/pidor") { req in
-        return "Zdarov, kak sam?"
+    router.get("anton/krasava") { req in
+        return "!!!!!!!!!!!!!!!!!!!!!"
     }
 
     // Example of configuring a controller
